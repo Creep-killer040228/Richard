@@ -1,0 +1,61 @@
+.vestibulum__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+}
+
+.vestibulum__card-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vestibulum__card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vestibulum__card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 330px;
+    margin-left: 20px;
+}
+
+.vestibulum__card-desc-bg-p {
+    font-family: var(--GR);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--bg_p);
+    text-transform: uppercase;
+}
+
+.vestibulum__card-desc-h {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--dark);
+}
+
+.vestibulum__card-desc-p {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-p);
+}
+
+.vestibulum__card-desc-p span {
+    font-family: var(--GB);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: underline;
+}
