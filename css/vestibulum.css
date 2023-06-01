@@ -1,8 +1,10 @@
+.vestibulum{
+    margin-top: 120px;
+}
 .vestibulum__wrap {
     display: flex;
     flex-direction: column;
     gap: 120px;
-
 }
 
 .vestibulum__card-reverse {

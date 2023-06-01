@@ -50,3 +50,13 @@
     line-height: 26px;
     color: var(--white);
 }
+
+.content__wrap-btn-red:hover {
+    background: none;
+    border: 1px solid #B04BB3;
+}
+
+.content__wrap-btn-without:hover {
+    background: #FC0A7E;
+
+}

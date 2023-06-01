@@ -75,6 +75,11 @@
     border: none;
     outline: none;
     border-radius: 3px;
+    transition: 0.3s;
+}
+.banner__desc-btn:hover{
+    background: var(--white);
+    color: var(--dark);
 }
 
 .icon {
