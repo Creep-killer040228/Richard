@@ -1,0 +1,78 @@
+.joshua {
+    margin-top: 120px;
+}
+
+.joshua__wrap {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.joshua__desc {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.joshua__dot {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.joshua__dot-dark {
+    width: 7px;
+    height: 7px;
+    background: var(--dark);
+}
+
+.joshua__dot-grey {
+    width: 7px;
+    height: 7px;
+    background: var(--grey);
+}
+
+.joshua__desc-p {
+    font-family: var(--GR);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--text-p);
+}
+
+.joshua__schedule-hp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.joshua__schedule-span {
+    width: 30px;
+    height: 1px;
+    background: #D3D3D3;
+}
+
+.joshua__schedule-h {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-p);
+}
+
+.joshua__schedule-p {
+    font-family:var(--GB);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--text-p);
+}
+.joshua__brands{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
