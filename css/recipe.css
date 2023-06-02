@@ -14,11 +14,18 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .recipe__card-reverse {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+}
+
+.recipe__card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .recipe__card-desc {
@@ -53,3 +60,4 @@
     line-height: 30px;
     color: var(--text-p);
 }
+

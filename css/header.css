@@ -133,7 +133,7 @@
         line-height: 25px;   
     }
 }
-@media screen and (max-width:370px){
+@media screen and (max-width:380px){
     .navbar{
         gap: 15px;
     }
