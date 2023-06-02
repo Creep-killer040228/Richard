@@ -88,3 +88,34 @@
     line-height: 20px;
     color: var(--text-p);
 }
+
+@media screen and (max-width:740px) {
+    .footer__contacts-menu {
+        max-width: 360px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+@media screen  and (max-width:580px){
+    .footer__desc-form-input{
+        padding: 14px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer__desc-form-btn{
+        padding: 14px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer__desc-h{
+        font-size: 24px;
+        line-height: 34px;   
+    }
+    .footer__desc-p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer{
+        padding: 60px 0 20px;
+    }
+}
