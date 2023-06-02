@@ -61,3 +61,51 @@
     color: var(--text-p);
 }
 
+@media screen and (max-width:800px) {
+    .recipe__card-desc {
+        max-width: 200px;
+    }
+
+    .recipe__card-desc-bg-p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .recipe__card-desc-h {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .recipe__card-desc-p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .recipe__card-img img {
+        height: 360px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .recipe__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .recipe__card-reverse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .recipe__card-desc {
+        text-align: center;
+        align-items: center;
+    }
+}
